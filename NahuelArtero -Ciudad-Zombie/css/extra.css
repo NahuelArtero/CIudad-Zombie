@@ -1,0 +1,25 @@
+body{
+  background-image: url('../imagenes/BG-zombie.jpg');
+}
+
+canvas {
+  margin: auto;
+  display: flex;
+  margin-top: calc(50vh - 286px);
+}
+
+.boton-recargar {
+  margin: auto;
+  display: flex;
+  background: none;
+  border: none;
+  color: white;
+  font-family: monospace;
+  visibility: hidden;
+  font-size: 200%;
+}
+
+.boton-recargar:hover {
+  background-color: #f44336;
+  color: white;
+}
